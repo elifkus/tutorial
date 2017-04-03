@@ -19,20 +19,11 @@ data-id="chromebook_setup" data-collapse=true ces-->
 # Install Python
 {% include "/python_installation/instructions.md" %}
 
-# Set up virtualenv and install Django
+# Install Django
 {% include "/django_installation/instructions.md" %}
 
 # Install a code editor
 {% include "/code_editor/instructions.md" %}
-
-# Install Git
-{% include "/deploy/install_git.md" %}
-
-# Create a GitHub account
-Go to [GitHub.com](https://www.github.com) and sign up for a new, free user account.
-
-# Create a PythonAnywhere account
-{% include "/deploy/signup_pythonanywhere.md" %}
 
 
 # Start reading

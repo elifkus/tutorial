@@ -13,22 +13,19 @@ The first step is to start a new Django project. Basically, this means that we'l
 
 The names of some files and directories are very important for Django. You should not rename the files that we are about to create. Moving them to a different place is also not a good idea. Django needs to maintain a certain structure to be able to find important things.
 
-> Remember to run everything in the virtualenv. If you don't see a prefix `(myvenv)` in your console, you need to activate your virtualenv. We explained how to do that in the __Django installation__ chapter in the __Working with virtualenv__ part. Typing `myvenv\Scripts\activate` on Windows or
-`source myvenv/bin/activate` on Mac OS X or Linux will do this for you.
-
 <!--sec data-title="OS X or Linux" data-id="django_start_project_OSX_Linux" data-collapse=true ces-->
 
 In your Mac OS X or Linux console, you should run the following command. **Don't forget to add the period (or dot) `.` at the end!**
 
 {% filename %}command-line{% endfilename %}
 ```
-(myvenv) ~/djangogirls$ django-admin startproject mysite .
+~/djangogirls$ django-admin startproject mysite .
 ```
 
 > The period `.` is crucial because it tells the script to install Django in your current directory (for which the period `.` is a short-hand reference).
 
 > **Note** When typing the command above, remember that you only type the part which starts by `django-admin`.
-The `(myvenv) ~/djangogirls$` part shown here is just example of the prompt that will be inviting your input on your command line.
+The `~/djangogirls$` part shown here is just example of the prompt that will be inviting your input on your command line.
 
 <!--endsec-->
 
@@ -38,12 +35,12 @@ On Windows you should run the following command. **(Don't forget to add the peri
 
 {% filename %}command-line{% endfilename %}
 ```
-(myvenv) C:\Users\Name\djangogirls> django-admin.py startproject mysite .
+C:\Users\Name\djangogirls> django-admin.py startproject mysite .
 ```
 > The period `.` is crucial because it tells the script to install Django in your current directory (for which the period `.` is a short-hand reference).
 
 > **Note** When typing the command above, remember that you only type the part which starts by `django-admin.py`.
-The (myvenv) C:\Users\Name\djangogirls>` part shown here is just example of the prompt that will be inviting your input on your command line.
+The `C:\Users\Name\djangogirls>` part shown here is just example of the prompt that will be inviting your input on your command line.
 
 <!--endsec-->
 
@@ -58,7 +55,6 @@ djangogirls
         wsgi.py
         __init__.py
 ```
-> **Note**: in your directory structure, you will also see your `venv` directory that we created before.
 
 `manage.py` is a script that helps with management of the site. With it we will be able (amongst other things) to start a web server on our computer without installing anything else.
 
@@ -121,7 +117,7 @@ To create a database for our blog, let's run the following in the console: `pyth
 
 {% filename %}command-line{% endfilename %}
 ```
-(myvenv) ~/djangogirls$ python manage.py migrate
+~/djangogirls$ python manage.py migrate
 Operations to perform:
   Apply all migrations: auth, admin, contenttypes, sessions
 Running migrations:
@@ -148,21 +144,21 @@ You need to be in the directory that contains the `manage.py` file (the `djangog
 
 {% filename %}command-line{% endfilename %}
 ```
-(myvenv) ~/djangogirls$ python manage.py runserver
+~/djangogirls$ python manage.py runserver
 ```
 
 If you are on a Chromebook, use this command instead:
 
 {% filename %}Cloud 9{% endfilename %}
 ```
-(myvenv) ~/djangogirls$ python manage.py runserver 0.0.0.0:8080
+~/djangogirls$ python manage.py runserver 0.0.0.0:8080
 ```
 
 If you are on Windows and this fails with `UnicodeDecodeError`, use this command instead:
 
 {% filename %}command-line{% endfilename %}
 ```
-(myvenv) ~/djangogirls$ python manage.py runserver 0:8000
+~/djangogirls$ python manage.py runserver 0:8000
 ```
 
 

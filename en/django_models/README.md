@@ -68,7 +68,7 @@ To keep everything tidy, we will create a separate application inside our projec
 
 {% filename %}command-line{% endfilename %}
 ```
-(myvenv) ~/djangogirls$ python manage.py startapp blog
+~/djangogirls$ python manage.py startapp blog
 ```
 
 You will notice that a new `blog` directory is created and it contains a number of files now. The directories and files in our project should look like this:
@@ -171,7 +171,7 @@ The last step here is to add our new model to our database. First we have to mak
 
 {% filename %}command-line{% endfilename %}
 ```
-(myvenv) ~/djangogirls$ python manage.py makemigrations blog
+~/djangogirls$ python manage.py makemigrations blog
 Migrations for 'blog':
   blog/migrations/0001_initial.py:
   - Create model Post
@@ -183,7 +183,7 @@ Django prepared a migration file for us that we now have to apply to our databas
 
 {% filename %}command-line{% endfilename %}
 ```
-(myvenv) ~/djangogirls$ python manage.py migrate blog
+~/djangogirls$ python manage.py migrate blog
 Operations to perform:
   Apply all migrations: blog
 Running migrations:

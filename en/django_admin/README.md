@@ -26,7 +26,7 @@ When prompted, type your username (lowercase, no spaces), email address, and pas
 
 {% filename %}command-line{% endfilename %}
 ```
-(myvenv) ~/djangogirls$ python manage.py createsuperuser
+~/djangogirls$ python manage.py createsuperuser
 Username: admin
 Email address: admin@admin.com
 Password:
