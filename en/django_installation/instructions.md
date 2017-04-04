@@ -30,7 +30,7 @@ Successfully installed django-1.10.4
 <!--sec data-title="Windows" data-id="django_err_windows"
 data-collapse=true ces-->
 
-> If you get an error when calling pip on Windows platform, please check if your project pathname contains spaces, accents or special characters (for example, `C:\Users\User Name\djangogirls`). If it does, please consider using another place without spaces, accents or special characters (suggestion: `C:\djangogirls`). 
+> If you get an error when calling pip on Windows platform, please check if your project pathname contains spaces, accents or special characters (for example, `C:\Users\User Name\djangoblog`). If it does, please consider using another place without spaces, accents or special characters (suggestion: `C:\djangoblog`). 
 
 <!--endsec-->
 
@@ -41,7 +41,7 @@ data-collapse=true ces-->
 >
 >{% filename %}command-line{% endfilename %}
 >```
->C:\Users\Name\djangogirls> python -m pip install django~=1.10.0
+>C:\Users\Name\djangoblog> python -m pip install django~=1.10.0
 >```
 
 <!--endsec-->

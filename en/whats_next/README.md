@@ -6,13 +6,14 @@ Congratulate yourself! __You're totally awesome__. We're proud! <3
 
 Take a break and relax. You have just done something really huge.
 
-After that, make sure to follow Django Girls on [Facebook](http://facebook.com/djangogirls) or [Twitter](https://twitter.com/djangogirls) to stay up to date.
+After that, make sure to follow Kadın Yazılımcı on [Facebook](http://facebook.com/KadinYazilimci) or [Twitter](https://twitter.com/kadinyazilimci) to stay up to date.
 
 ### Can you recommend any further resources?
 
-Yes! First, go ahead and try our other book, called [Django Girls Tutorial: Extensions](https://djangogirls.gitbooks.io/django-girls-tutorial-extensions/content/).
+Yes! First, go ahead and try Django Girls' longer version of the tutorial [Django Girls Tutorial](https://tutorial.djangogirls.org).
 
 Later on, you can try the resources listed below. They're all very recommended!
+- [Django Girls Tutorial: Extensions](https://djangogirls.gitbooks.io/django-girls-tutorial-extensions/content/)
 - [Django's official tutorial](https://docs.djangoproject.com/en/1.10/intro/tutorial01/)
 - [New Coder tutorials](http://newcoder.io/tutorials/)
 - [Code Academy Python course](https://www.codecademy.com/en/tracks/python)

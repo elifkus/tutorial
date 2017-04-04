@@ -16,7 +16,7 @@ Open up your local console (not on PythonAnywhere) and type this command:
 
 {% filename %}command-line{% endfilename %}
 ```
-~/djangogirls$ python manage.py shell
+~/djangoblog$ python manage.py shell
 ```
 
 The effect should be like this:

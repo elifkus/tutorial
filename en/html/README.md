@@ -103,7 +103,7 @@ You can now have a little fun and try to customize your template! Here are a few
 - `<em>text</em>` emphasizes your text
 - `<strong>text</strong>` strongly emphasizes your text
 - `<br />` goes to another line (you can't put anything inside br)
-- `<a href="https://djangogirls.org">link</a>` creates a link
+- `<a href="http://www.kadinyazilimci.com">link</a>` creates a link
 - `<ul><li>first item</li><li>second item</li></ul>` makes a list, just like this one!
 - `<div></div>` defines a section of the page
 
@@ -113,11 +113,11 @@ Here's an example of a full template, copy and paste it into `blog/templates/blo
 ```html
 <html>
     <head>
-        <title>Django Girls blog</title>
+        <title>Django blog</title>
     </head>
     <body>
         <div>
-            <h1><a href="">Django Girls Blog</a></h1>
+            <h1><a href="">Django Blog</a></h1>
         </div>
 
         <div>

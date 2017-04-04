@@ -43,7 +43,7 @@ Django already knows where to find the static files for the built-in "admin" app
 We do that by creating a folder called `static` inside the blog app:
 
 ```
-djangogirls
+djangoblog
 ├── blog
 │   ├── migrations
 │   └── static
@@ -58,7 +58,7 @@ Django will automatically find any folders called "static" inside any of your ap
 Let's create a CSS file now, to add your own style to your web page. Create a new directory called `css` inside your `static` directory. Then create a new file called `blog.css` inside this `css` directory. Ready?
 
 ```
-djangogirls
+djangoblog
 └─── blog
      └─── static
           └─── css
@@ -116,14 +116,14 @@ Your file should now look like this:
 {% load staticfiles %}
 <html>
     <head>
-        <title>Django Girls blog</title>
+        <title>Django blog</title>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="{% static 'css/blog.css' %}">
     </head>
     <body>
         <div>
-            <h1><a href="/">Django Girls Blog</a></h1>
+            <h1><a href="/">Django Blog</a></h1>
         </div>
 
         {% for post in posts %}
@@ -185,7 +185,7 @@ Go ahead and name some parts of the HTML code. Add a class called `page-header` 
 {% filename %}blog/templates/blog/post_list.html{% endfilename %}
 ```html
 <div class="page-header">
-    <h1><a href="/">Django Girls Blog</a></h1>
+    <h1><a href="/">Django Blog</a></h1>
 </div>
 ```
 

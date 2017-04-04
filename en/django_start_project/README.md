@@ -19,13 +19,13 @@ In your Mac OS X or Linux console, you should run the following command. **Don't
 
 {% filename %}command-line{% endfilename %}
 ```
-~/djangogirls$ django-admin startproject mysite .
+~/djangoblog$ django-admin startproject mysite .
 ```
 
 > The period `.` is crucial because it tells the script to install Django in your current directory (for which the period `.` is a short-hand reference).
 
 > **Note** When typing the command above, remember that you only type the part which starts by `django-admin`.
-The `~/djangogirls$` part shown here is just example of the prompt that will be inviting your input on your command line.
+The `~/djangoblog$` part shown here is just example of the prompt that will be inviting your input on your command line.
 
 <!--endsec-->
 
@@ -35,19 +35,19 @@ On Windows you should run the following command. **(Don't forget to add the peri
 
 {% filename %}command-line{% endfilename %}
 ```
-C:\Users\Name\djangogirls> django-admin.py startproject mysite .
+C:\Users\Name\djangoblog> django-admin.py startproject mysite .
 ```
 > The period `.` is crucial because it tells the script to install Django in your current directory (for which the period `.` is a short-hand reference).
 
 > **Note** When typing the command above, remember that you only type the part which starts by `django-admin.py`.
-The `C:\Users\Name\djangogirls>` part shown here is just example of the prompt that will be inviting your input on your command line.
+The `C:\Users\Name\djangoblog>` part shown here is just example of the prompt that will be inviting your input on your command line.
 
 <!--endsec-->
 
 `django-admin.py` is a script that will create the directories and files for you. You should now have a directory structure which looks like this:
 
 ```
-djangogirls
+djangoblog
 ├───manage.py
 └───mysite
         settings.py
@@ -113,11 +113,11 @@ DATABASES = {
 }
 ```
 
-To create a database for our blog, let's run the following in the console: `python manage.py migrate` (we need to be in the `djangogirls` directory that contains the `manage.py` file). If that goes well, you should see something like this:
+To create a database for our blog, let's run the following in the console: `python manage.py migrate` (we need to be in the `djangoblog` directory that contains the `manage.py` file). If that goes well, you should see something like this:
 
 {% filename %}command-line{% endfilename %}
 ```
-~/djangogirls$ python manage.py migrate
+~/djangoblog$ python manage.py migrate
 Operations to perform:
   Apply all migrations: auth, admin, contenttypes, sessions
 Running migrations:
@@ -140,25 +140,25 @@ And we're done! Time to start the web server and see if our website is working!
 
 ## Starting the web server
 
-You need to be in the directory that contains the `manage.py` file (the `djangogirls` directory). In the console, we can start the web server by running `python manage.py runserver`:
+You need to be in the directory that contains the `manage.py` file (the `djangoblog` directory). In the console, we can start the web server by running `python manage.py runserver`:
 
 {% filename %}command-line{% endfilename %}
 ```
-~/djangogirls$ python manage.py runserver
+~/djangoblog$ python manage.py runserver
 ```
 
 If you are on a Chromebook, use this command instead:
 
 {% filename %}Cloud 9{% endfilename %}
 ```
-~/djangogirls$ python manage.py runserver 0.0.0.0:8080
+~/djangoblog$ python manage.py runserver 0.0.0.0:8080
 ```
 
 If you are on Windows and this fails with `UnicodeDecodeError`, use this command instead:
 
 {% filename %}command-line{% endfilename %}
 ```
-~/djangogirls$ python manage.py runserver 0:8000
+~/djangoblog$ python manage.py runserver 0:8000
 ```
 
 

@@ -64,17 +64,17 @@ You can think of a model in the database as a spreadsheet with columns (fields) 
 
 ### Creating an application
 
-To keep everything tidy, we will create a separate application inside our project. It is very nice to have everything organized from the very beginning. To create an application we need to run the following command in the console (from `djangogirls` directory where `manage.py` file is):
+To keep everything tidy, we will create a separate application inside our project. It is very nice to have everything organized from the very beginning. To create an application we need to run the following command in the console (from `djangoblog` directory where `manage.py` file is):
 
 {% filename %}command-line{% endfilename %}
 ```
-~/djangogirls$ python manage.py startapp blog
+~/djangoblog$ python manage.py startapp blog
 ```
 
 You will notice that a new `blog` directory is created and it contains a number of files now. The directories and files in our project should look like this:
 
 ```
-djangogirls
+djangoblog
 ├── blog
 │   ├── __init__.py
 │   ├── admin.py
@@ -171,7 +171,7 @@ The last step here is to add our new model to our database. First we have to mak
 
 {% filename %}command-line{% endfilename %}
 ```
-~/djangogirls$ python manage.py makemigrations blog
+~/djangoblog$ python manage.py makemigrations blog
 Migrations for 'blog':
   blog/migrations/0001_initial.py:
   - Create model Post
@@ -183,7 +183,7 @@ Django prepared a migration file for us that we now have to apply to our databas
 
 {% filename %}command-line{% endfilename %}
 ```
-~/djangogirls$ python manage.py migrate blog
+~/djangoblog$ python manage.py migrate blog
 Operations to perform:
   Apply all migrations: blog
 Running migrations:
