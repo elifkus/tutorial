@@ -1,23 +1,25 @@
-# Django Girls Tutorial
+# Django Blog Tutorial
 
-This is the source code repository for the Django Girls Tutorial. Django Girls Tutorial is used on [tutorial.djangogirls.org](http://tutorial.djangogirls.org) so if you want to read it, please go there. If you want to contribute please do go further with this file.
+This is the source code repository for the Django Blog Tutorial. Django Blog Tutorial is a shorter version of the Django Girls Tutorial. We removed the virtual environment and deployment parts. This tutorial can be read on [django-tutorial.kadinyazilimci.com](http://django-tutorial.kadinyazilimci.com), so if you want to read it, please go there. If you want to contribute please do go further with this file. The longer version of the  tutorial is on [tutorial.djangogirls.org](http://tutorial.djangogirls.org), so if you want to read it, please go there. If you want to contribute to that tutorial, please go to [github.com/djangogirls/tutorial](https://github.com/djangogirls/tutorial).
 
 
 # How to contribute
 
-The Django Girls Tutorial is licensed under a [*Creative Commons Attribution-ShareAlike 4.0*](https://creativecommons.org/licenses/by-sa/4.0/) license. Everyone is free to add, edit and correct the tutorial.
+The Django Blog Tutorial is licensed under a [*Creative Commons Attribution-ShareAlike 4.0*](https://creativecommons.org/licenses/by-sa/4.0/) license. Everyone is free to add, edit and correct the tutorial.
+
+This tutorial is a shortened version the Django Girls Tutorial. 
 
 # Editing basics
 
-The source code of the tutorial is [hosted on Github](https://github.com/DjangoGirls/tutorial). The Github [Fork & Pull workflow](https://help.github.com/articles/using-pull-requests) is used to accept and review changes.
+The source code of the tutorial is [hosted on Github](https://github.com/KadinYazilimci/django-blog-tutorial). The Github [Fork & Pull workflow](https://help.github.com/articles/using-pull-requests) is used to accept and review changes.
 
 The tutorial uses the [GitBook](https://www.gitbook.com/) service for publishing its documentation. [See more information about how Gitbook works](https://help.gitbook.com/).
 
 The tutorial is written in [Markdown mark up language](https://help.github.com/articles/markdown-basics).
 
-You can find any discussions about the contents of the tutorial on the [Github issue tracker](https://github.com/DjangoGirls/tutorial/issues).
+You can find any discussions about the contents of the tutorial on the [Github issue tracker](https://github.com/KadinYazilimci/django-blog-tutorial/issues).
 
-[Crowdin](https://crowdin.com/project/django-girls-tutorial) platform is used to manage translations. If you want to join an existing translation team or launch a new translation, send an email to the [translation managers](mailto:translations@djangogirls.org) or contact [support team](mailto:hello@djangogirls.org). If you want to propose some small changes or fix typos in existing translations, please create a Pull Request.
+[Crowdin](https://crowdin.com/project/django-girls-manuals) platform is used to manage translations. If you want to join an existing translation team or launch a new translation, send an email to the [us](mailto:bize-yazin@kadinyazilimci.com). If you want to propose some small changes or fix typos in existing translations, please create a Pull Request.
 
 # Getting started and prerequisites
 
@@ -28,7 +30,7 @@ For contributing to the tutorial the following is needed to get started:
 
 ## Fork the repository
 
-First fork the [DjangoGirls/tutorial](https://github.com/DjangoGirls/tutorial) repository to your personal Github account:
+First fork the [KadinYazilimci/django-blog-tutorial](https://github.com/KadinYazilimci/django-blog-tutorial) repository to your personal Github account:
 
 ![Fork button](contributing/images/fork.png)
 
@@ -101,7 +103,7 @@ If you don't want to download the Gitbook Editor app you can also go to the [Git
 
 # Making a pull request
 
-After you have finished your changes you need to create [a pull request](https://help.github.com/articles/using-pull-requests)  on Github. DjangoGirls will get notified about the pull request, review your changes, suggest any corrections if needed and then *pull* your changes to the master version.
+After you have finished your changes you need to create [a pull request](https://help.github.com/articles/using-pull-requests)  on Github. KadinYazilimci  will get notified about the pull request, review your changes, suggest any corrections if needed and then *pull* your changes to the master version.
 
 In your own repository on Github press do *Compare & pull request*
 
@@ -117,4 +119,4 @@ Github emails will notify you for the follow up process.
 
 GitHub has an excellent [documentation](https://help.github.com/). Check it out if you need help!
 
-For further questions please [contact DjangoGirls](https://djangogirls.org/).
+For further questions please [contact KadinYazilimci](http://www.kadinyazilimci.com/).
