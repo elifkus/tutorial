@@ -11,13 +11,13 @@ This tutorial is a shortened version of the [Django Girls Tutorial](http://tutor
 
 # Editing basics
 
-The source code of the tutorial is [hosted on Github](https://github.com/KadinYazilimci/django-blog-tutorial). The Github [Fork & Pull workflow](https://help.github.com/articles/using-pull-requests) is used to accept and review changes.
+The source code of the tutorial is [hosted on Github](https://github.com/kadinyazilimci/django-blog-tutorial). The Github [Fork & Pull workflow](https://help.github.com/articles/using-pull-requests) is used to accept and review changes.
 
 The tutorial uses the [GitBook](https://www.gitbook.com/) service for publishing its documentation. [See more information about how Gitbook works](https://help.gitbook.com/).
 
 The tutorial is written in [Markdown mark up language](https://help.github.com/articles/markdown-basics).
 
-You can find any discussions about the contents of the tutorial on the [Github issue tracker](https://github.com/KadinYazilimci/django-blog-tutorial/issues).
+You can find any discussions about the contents of the tutorial on the [Github issue tracker](https://github.com/kadinyazilimci/django-blog-tutorial/issues).
 
 [Crowdin](https://crowdin.com/project/django-girls-manuals) platform is used to manage translations. If you want to join an existing translation team or launch a new translation, send an email to the [us](mailto:bize-yazin@kadinyazilimci.com). If you want to propose some small changes or fix typos in existing translations, please create a Pull Request.
 
@@ -30,7 +30,7 @@ For contributing to the tutorial the following is needed to get started:
 
 ## Fork the repository
 
-First fork the [KadinYazilimci/django-blog-tutorial](https://github.com/KadinYazilimci/django-blog-tutorial) repository to your personal Github account:
+First fork the [kadinyazilimci/django-blog-tutorial](https://github.com/kadinyazilimci/django-blog-tutorial) repository to your personal Github account:
 
 ![Fork button](contributing/images/fork.png)
 
