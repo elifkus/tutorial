@@ -7,7 +7,7 @@ This is the source code repository for the Django Blog Tutorial. Django Blog Tut
 
 The Django Blog Tutorial is licensed under a [*Creative Commons Attribution-ShareAlike 4.0*](https://creativecommons.org/licenses/by-sa/4.0/) license. Everyone is free to add, edit and correct the tutorial.
 
-This tutorial is a shortened version the Django Girls Tutorial. 
+This tutorial is a shortened version of the [Django Girls Tutorial](http://tutorial.djangogirls.org). 
 
 # Editing basics
 
